@@ -1,8 +1,15 @@
+## Intro
+Simple node/express app.
 
-Simple node/express app, built with nodejs v16.
-It probably runs on nodejs 18, and other versions, too.
+### How to run it
+You will need Node.js to run this.
+The app was tested with Node.js 16 but it probably works with other versions, too.
 
-Run it by `node server.js`.
+Once you have Node.js installed, `cd` into the app directory and run `npm install`.
+
+Then you can run the actual app via `node server.js`.
+
+---
 
 By default, it listens on port 3000. You can override this using environment variable `APP_PORT`.
 
